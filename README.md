@@ -23,10 +23,10 @@ This app integrates with EHR systems using **OAuth 2.0** and **SMART on FHIR** p
 ### 🔐 Redirect & Launch URLs
 
 - **OAuth Redirect URL:**  
-  [`https://oliastfn.github.io/freewaypsychiatry-session-assistant/callback.html`](https://oliastfn.github.io/freewaypsychiatry-session-assistant/callback.html)
+  [`https://oliastfn.github.io/freeway-practicefusion-app/callback.html`](https://oliastfn.github.io/freeway-practicefusion-app/callback.html)
 
 - **SMART Launch URL:**  
-  [`https://oliastfn.github.io/freewaypsychiatry-session-assistant/launch.html`](https://oliastfn.github.io/freewaypsychiatry-session-assistant/launch.html)
+  [`https://oliastfn.github.io/freeway-practicefusion-app/launch.html`](https://oliastfn.github.io/freeway-practicefusion-app/launch.html)
 
 ## HIPAA & Privacy Notice
 
