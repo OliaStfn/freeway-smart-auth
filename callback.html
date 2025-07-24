@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+  <head><title>Authorization Callback</title></head>
+  <body>
+    <h2>Authorization complete</h2>
+    <p>Thank you! You can now return to the app.</p>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get("code");
+      if (code) {
+        console.log("Received auth code:", code);
+        document.body.innerHTML += "<p>Auth code: " + code + "</p>";
+      } else {
+        document.body.innerHTML += "<p>No code received.</p>";
+      }
+    </script>
+  </body>
+</html>

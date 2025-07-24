@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+  <head><title>SMART Launch</title></head>
+  <body>
+    <h2>Launching Session Assistant...</h2>
+    <p>This page is used to initiate a SMART-on-FHIR session.</p>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const iss = params.get("iss");
+      const launch = params.get("launch");
+      if (iss || launch) {
+        document.body.innerHTML += "<p>iss: " + iss + "</p>";
+        document.body.innerHTML += "<p>launch: " + launch + "</p>";
+      } else {
+        document.body.innerHTML += "<p>No SMART launch parameters provided.</p>";
+      }
+    </script>
+  </body>
+</html>
